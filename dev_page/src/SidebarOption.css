@@ -1,0 +1,21 @@
+.headerOption_title {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    padding-top: 15px;
+}
+
+.headerOption_title > h3 {
+    display: none;
+}
+
+.headerOption_title:hover{
+    background-image: linear-gradient(to bottom left,white, peachpuff);
+}
+
+.headerOption_icon{
+    height: 35px;
+}

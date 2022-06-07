@@ -2,7 +2,8 @@ import React from 'react';
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption.js"
 import CottageIcon from '@mui/icons-material/Cottage';
-
+import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 function Sidebar() {
   return (
@@ -11,10 +12,9 @@ function Sidebar() {
                 <img src="/A_Logo.png"/>
             </div>
             <div className="sidebar_bottom">
-                <h2>bottom</h2>
-                <SidebarOption title="Home"/>
-                <SidebarOption title="Resume"/>
-                <SidebarOption title="Contact"/>
+                <SidebarOption title="Home" link="" Icon={CottageIcon}/>
+                <SidebarOption title="Resume" link="resume" Icon={AssignmentIndIcon}/>
+                <SidebarOption title="Contact" link="contact" Icon={AlternateEmailIcon}/>
             </div>
             
     </div>

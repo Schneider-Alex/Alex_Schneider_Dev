@@ -1,11 +1,14 @@
 import React from 'react'
 import "./SidebarOption.css"
 
-function HeaderOption({Icon, title}) {
+function HeaderOption({Icon, title,link}) {
   return (
     <div className="sidebarOption">
-      {Icon && <Icon className="headerOption_icon"/>}
-      <h3 className="headerOption_title" link>{title}</h3>
+      
+      <a className="headerOption_title" href={'/' + link}>
+        {Icon && <Icon className="headerOption_icon"/>}
+        <h3>{title}</h3>
+      </a>
     </div>
   )
 }

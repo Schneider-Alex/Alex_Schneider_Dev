@@ -1,12 +1,18 @@
 .sidebar{
-    flex:0.2;
+    flex:0.1;
     padding: 20px 10px;
     /* border-top: solid black 3px;
     border-left: solid black 3px;
     border-top-left-radius: 25px; */
     box-shadow: 0 30px 40px peachpuff; ;
+    height:100%;
+    position: sticky;
 }
-
+.sidebar_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sidebar_top >img {
     height: 125px;
     width:auto;
@@ -15,3 +21,11 @@
 .sidebar_top > img:hover{
     background-image: linear-gradient(to bottom left,white, peachpuff);
 }
+
+.sidebar_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+}
+
