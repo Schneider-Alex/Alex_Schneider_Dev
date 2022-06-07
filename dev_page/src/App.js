@@ -3,7 +3,8 @@ import './App.css';
 import Sidebar from "./Sidebar.js"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./Main.js"
-import Resume from "./Resume.js"
+import Projects from "./Projects.js"
+import Contacts from "./Contacts.js"
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
       <div className="main">
         <BrowserRouter>
           <Routes>
+            <Route path="index" element={<Main/>}/>
             <Route path="/" element={<Main/>}/>
-              <Route path="/resume" element={<Resume/>}/>
-              <Route path="/resume" element={<Resume/>}/>
+              <Route path="/projects" element={<Projects/>}/>
+              <Route path="/contacts" element={<Contacts/>}/>
           </Routes>
         </BrowserRouter>
       </div>

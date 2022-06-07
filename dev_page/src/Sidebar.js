@@ -2,7 +2,7 @@ import React from 'react';
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption.js"
 import CottageIcon from '@mui/icons-material/Cottage';
-import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
+import AssignmentIcon from '@mui/icons-material/Assignment';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 function Sidebar() {
@@ -13,8 +13,8 @@ function Sidebar() {
             </div>
             <div className="sidebar_bottom">
                 <SidebarOption title="Home" link="" Icon={CottageIcon}/>
-                <SidebarOption title="Resume" link="resume" Icon={AssignmentIndIcon}/>
-                <SidebarOption title="Contact" link="contact" Icon={AlternateEmailIcon}/>
+                <SidebarOption title="Projects" link="projects" Icon={AssignmentIcon}/>
+                <SidebarOption title="Contact" link="contacts" Icon={AlternateEmailIcon}/>
             </div>
             
     </div>
