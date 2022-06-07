@@ -1,31 +1,37 @@
 .sidebar{
     flex:0.1;
     padding: 20px 10px;
-    /* border-top: solid black 3px;
-    border-left: solid black 3px;
-    border-top-left-radius: 25px; */
-    box-shadow: 0 30px 40px peachpuff; ;
+    border-bottom-left-radius: 25px;
+    box-shadow: -5px 30px 40px peachpuff;
     height:100%;
     position: sticky;
+    top:0;
+    z-index: 999;
 }
 .sidebar_top{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .sidebar_top >img {
     height: 125px;
     width:auto;
     border-radius: 25%;
+    background-image:linear-gradient(to bottom left,peachpuff, white);
 }
+
+
 .sidebar_top > img:hover{
     background-image: linear-gradient(to bottom left,white, peachpuff);
+    box-shadow: 0 0 15px gray;
 }
+
 
 .sidebar_bottom{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 40%;
+    /* box-shadow: 0 0 20px peachpuff; */
 }
 
