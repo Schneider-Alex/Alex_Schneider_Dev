@@ -1,0 +1,17 @@
+.sidebar{
+    flex:0.2;
+    padding: 20px 10px;
+    /* border-top: solid black 3px;
+    border-left: solid black 3px;
+    border-top-left-radius: 25px; */
+    box-shadow: 0 30px 40px peachpuff; ;
+}
+
+.sidebar_top >img {
+    height: 125px;
+    width:auto;
+    border-radius: 25%;
+}
+.sidebar_top > img:hover{
+    background-image: linear-gradient(to bottom left,white, peachpuff);
+}
