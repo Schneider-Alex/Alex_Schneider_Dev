@@ -18,12 +18,12 @@
     height: 125px;
     width:auto;
     border-radius: 25%;
-    background-image:linear-gradient(to bottom left,peachpuff, white);
+    background-image:linear-gradient(to bottom left, white,peachpuff);
 }
 
 
 .sidebar_top > img:hover{
-    background-image: linear-gradient(to bottom left,white, peachpuff);
+    background-image: linear-gradient(to bottom left, peachpuff,white);
     box-shadow: 0 0 15px gray;
 }
 

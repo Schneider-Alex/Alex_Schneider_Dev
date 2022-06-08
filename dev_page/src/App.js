@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./Main.js"
 import Projects from "./Projects.js"
 import Contacts from "./Contacts.js"
+import Header from "./Header.js"
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
               <Route path="/contacts" element={<Contacts/>}/>
           </Routes>
         </BrowserRouter>
+        {/* <Footer/> */}
       </div>
       <Sidebar />
 

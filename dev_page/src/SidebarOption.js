@@ -2,7 +2,8 @@ import React from 'react'
 import "./SidebarOption.css"
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
-function HeaderOption({Icon, title,link}) {
+
+function SidebarOption({Icon, title,link}) {
   return (
     <div className="sidebarOption">
       <a className="sidebarOption_title" href={'/' + link}>
@@ -13,4 +14,4 @@ function HeaderOption({Icon, title,link}) {
   )
 }
 
-export default HeaderOption
+export default SidebarOption

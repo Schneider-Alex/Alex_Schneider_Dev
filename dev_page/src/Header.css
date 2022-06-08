@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex:0.1;
+    padding: 20px 60px;
+    border-bottom-left-radius: 25px;
+    box-shadow: -5px 30px 40px peachpuff;
+    height:100%;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+.header>h3{
+    font-size: 40px
+}
+
+.header_icon{
+    object-fit: contain;
+    height:50px !important;
+    width: 50px !important;
+    opacity: .5;
+}
+
+
+
