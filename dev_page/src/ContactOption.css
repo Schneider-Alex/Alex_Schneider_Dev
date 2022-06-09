@@ -1,0 +1,30 @@
+.contactOption>a{
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+}
+
+.contactOption_wrapper{
+    max-width: 250px;
+    border-radius:50% ;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, peachpuff, white);
+    padding: 10px;
+}
+.contactOption_wrapper:hover{
+    box-shadow: 0 0 20px gray;
+}
+
+
+.contactOption_icon{
+    object-fit: contain;
+    height:75px !important;
+    width: 75px !important;
+}
+
+.contactOption_icon:hover{
+    height: 100px !important;
+    width: 100px !important;
+    
+}
