@@ -19,12 +19,12 @@
 
 .contactOption_icon{
     object-fit: contain;
-    height:150px !important;
+    height:auto !important;
     width: 150px !important;
+    transition: width 1s, height 1s !important;
 }
 
 .contactOption_icon:hover{
-    height: 200px !important;
+    height: auto !important;
     width: 200px !important;
-    
 }

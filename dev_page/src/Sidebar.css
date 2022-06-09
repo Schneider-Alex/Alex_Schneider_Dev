@@ -3,7 +3,6 @@
     padding: 20px 10px;
     border-bottom-left-radius: 25px;
     box-shadow: -5px 30px 40px peachpuff;
-    height:100%;
     position: sticky;
     top:0;
     z-index: 999;
@@ -15,10 +14,12 @@
     margin-bottom: 20px;
 }
 .sidebar_top >img {
-    height: 125px;
+    height: 100px;
     width:auto;
     border-radius: 25%;
     background-image:linear-gradient(to bottom left, white,peachpuff);
+    box-shadow: none;
+    transition:box-shadow 1s;
 }
 
 
