@@ -9,8 +9,8 @@
     border-radius:50% ;
     padding: 1rem;
     position: relative;
-    background: linear-gradient(to right, peachpuff, white);
-    padding: 10px;
+    background: linear-gradient(to top right, peachpuff, white);
+    padding: 15px;
 }
 .contactOption_wrapper:hover{
     box-shadow: 0 0 20px gray;
@@ -19,12 +19,12 @@
 
 .contactOption_icon{
     object-fit: contain;
-    height:75px !important;
-    width: 75px !important;
+    height:150px !important;
+    width: 150px !important;
 }
 
 .contactOption_icon:hover{
-    height: 100px !important;
-    width: 100px !important;
+    height: 200px !important;
+    width: 200px !important;
     
 }
