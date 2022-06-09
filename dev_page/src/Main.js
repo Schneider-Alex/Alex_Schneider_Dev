@@ -7,7 +7,7 @@ import CottageIcon from '@mui/icons-material/Cottage';
 function Main() {
   return (
     <div className="main">
-        {/* <Header Icon={CottageIcon} title="Home"/> */}
+        <Header Icon={CottageIcon} title="Home"/>
     </div>
   )
 }

@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="app">
       <div className="main">
-        <Header Icon={ChevronLeftIcon}/>
         <BrowserRouter>
           <Routes>
             <Route path="index" element={<Main/>}/>

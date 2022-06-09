@@ -10,7 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 function Contacts() {
   return (
     <div className="contacts">
-        {/* <Header className="contacts_header" Icon={AlternateEmailIcon}/> */}
+        <Header className="contacts_header" Icon={AlternateEmailIcon}/>
         <div className="contacts_body">
             <ContactOption Icon={LinkedInIcon} link="https://www.linkedin.com/in/alex-schneider-stay-learning/" target="_blank"/>
             <ContactOption Icon={GitHubIcon} link="https://github.com/Schneider-Alex" target="_blank"/>

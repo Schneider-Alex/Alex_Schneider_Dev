@@ -9,8 +9,7 @@ import "./Projects.css"
 function Projects() {
     return (
         <div className="projects">
-            {/* <Header Icon={AlternateEmailIcon} /> */}
-            <h3>hello</h3>
+            <Header Icon={AssignmentIcon} />
         </div>
     )
 }
