@@ -10,10 +10,6 @@
     z-index: 999;
 }
 
-.header>h3{
-    font-size: 40px
-}
-
 .header_icon{
     object-fit: contain;
     height:50px !important;

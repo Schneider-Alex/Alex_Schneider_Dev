@@ -12,7 +12,7 @@ function Sidebar() {
                 <img src="/A_Logo.png"/>
             </div>
             <div className="sidebar_bottom">
-                <SidebarOption title="Home" link="" Icon={CottageIcon}/>
+                <SidebarOption title="Home" link="home" Icon={CottageIcon}/>
                 <SidebarOption title="Projects" link="projects" Icon={AssignmentIcon}/>
                 <SidebarOption title="Contact" link="contacts" Icon={AlternateEmailIcon}/>
             </div>
