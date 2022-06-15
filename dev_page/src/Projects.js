@@ -8,9 +8,12 @@ import ProjectOption from './ProjectOption.js';
 
 function Projects() {
     return (
+        
         <div className="projects">
             <Header Icon={AssignmentIcon} />
-            <ProjectOption title="LinkedIn Clone" pic="/linkedinpic1.png" vid="/LinkedInClone.mov" />
+            <div className="projects_options">
+                <ProjectOption title="LinkedIn Clone" pic="/linkedinpic1.png" vid="/LinkedInClone.mov" />
+            </div>
         </div>
     )
 }

@@ -6,6 +6,7 @@ function ProjectOption({ vid, pic, title, description }) {
             <h3>{title}</h3>
             <div className="projectOption_body">
             <video
+                
                 poster={pic}
                 onMouseOver={event => event.target.play()}
                 onMouseOut={event => event.target.pause()}
