@@ -3,17 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 400px;
+    margin-top:5%;
 }
 .projectOption>h2{
     padding-left: 5%;
+    margin-bottom:2%;
     font-family: 'Cardo', serif;
 }
 
 .projectOption_body > video{
     object-fit: cover;
     height:auto;
-    width: 80%;
+    width:100%;
+    
 }
 
 .projectOption_body{
@@ -24,7 +26,7 @@
     padding: 0% 10%;
 }
 .projectOption_body>p{
-    margin-top: 2%;
+    margin-top: 5px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-size:14px;
