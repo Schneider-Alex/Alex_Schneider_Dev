@@ -1,0 +1,38 @@
+.topButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topButton_wrapper >button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.topButton >a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+.topButton_wrapper{
+    background: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    border: peachpuff solid 1px;
+    transition: box-shadow .5s, background 1s, font-weight .5s;
+    box-shadow: none;
+}
+
+.topButton_wrapper:hover{
+    background: linear-gradient(to top right, peachpuff, white);
+    box-shadow: 0 0 20px gray;
+    font-weight: bold;
+}
