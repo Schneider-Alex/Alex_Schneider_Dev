@@ -3,8 +3,8 @@
     justify-content: center;
     flex:0.1;
     padding: 20px 40px;
-    border-bottom-left-radius: 25px;
-    box-shadow: -5px 30px 40px peachpuff;
+    border-bottom-right-radius: 25px;
+    box-shadow: -5px 20px 20px peachpuff;
     height:50px;
     position: -webkit-sticky;
     position: sticky;

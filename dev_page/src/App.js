@@ -13,20 +13,19 @@ function App() {
   return (
     <div className="app">
       <div className="main_sidebar">
-        <Sidebar />
+        <Sidebar/>
       </div>
       <div className="main">
         <BrowserRouter>
           <Routes>
-            <Route path="index" element={<Main/>}/>
-            <Route path="/home" element={<Main/>}/>
-              <Route path="/projects" element={<Projects/>}/>
-              <Route path="/contacts" element={<Contacts/>}/>
+            <Route path="index" element={<Main />} />
+            <Route path="/home" element={<Main />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </BrowserRouter>
-        {/* <Footer/> */}
       </div>
-      
+
     </div>
   );
 }
