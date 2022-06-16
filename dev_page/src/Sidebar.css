@@ -1,12 +1,12 @@
 .sidebar{
-    
     padding: 20px 10px;
     border-bottom-right-radius: 25px;
     box-shadow: 5px 30px 40px peachpuff;
     position: -webkit-sticky;
     position: sticky;
-    top:0%;
+    top: 180px;
     height:auto;
+    width: 120px;
 }
 .sidebar_top{
     display: flex;

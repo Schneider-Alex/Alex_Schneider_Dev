@@ -2,8 +2,13 @@
     display: flex;
     flex-direction: column;
 }
+.projects_body{
+    display: flex;
+}
+
 
 .project_options{
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
