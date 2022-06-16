@@ -12,6 +12,9 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 function App() {
   return (
     <div className="app">
+      <div className="main_sidebar">
+        <Sidebar />
+      </div>
       <div className="main">
         <BrowserRouter>
           <Routes>
@@ -23,9 +26,7 @@ function App() {
         </BrowserRouter>
         {/* <Footer/> */}
       </div>
-      <div className="main_sidebar">
-        <Sidebar />
-      </div>
+      
     </div>
   );
 }
