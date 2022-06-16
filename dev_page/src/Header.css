@@ -1,14 +1,16 @@
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     flex:0.1;
     padding: 20px 40px;
     border-bottom-left-radius: 25px;
     box-shadow: -5px 30px 40px peachpuff;
-    height:50px;
+    height:100px;
     position: -webkit-sticky;
     position: sticky;
     top:0;
+    z-index: 999;
     background-color: white ;
     margin-bottom: 5%;
 }
@@ -17,6 +19,19 @@
     opacity: .8;
     font-family: 'Cardo', serif;
 }
+.header_left >img {
+    height: 100px;
+    width:auto;
+    border-radius: 25%;
+    background-image:linear-gradient(to bottom left, white,peachpuff);
+    box-shadow: none;
+    transition:box-shadow 1s;
+}
 
+
+.header_left > img:hover{
+    background-image: linear-gradient(to bottom left, peachpuff,white);
+    box-shadow: 0 0 15px gray;
+}
 
 
