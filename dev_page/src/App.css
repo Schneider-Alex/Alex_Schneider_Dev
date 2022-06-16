@@ -8,6 +8,6 @@
   flex-direction: column;
 }
 
-.content{
-  flex:0.8;
+.main_sidebar{
+  flex:0.1;
 }

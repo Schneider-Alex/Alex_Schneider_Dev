@@ -1,11 +1,11 @@
 .sidebar{
-    flex:0.1;
+    
     padding: 20px 10px;
     border-bottom-left-radius: 25px;
     box-shadow: -5px 30px 40px peachpuff;
+    position: -webkit-sticky;
     position: sticky;
-    top:0;
-    z-index: 999;
+    top:0%;
     height:80%
 }
 .sidebar_top{
@@ -15,8 +15,8 @@
     margin-bottom: 20px;
 }
 .sidebar_top >img {
-    height: 100px;
-    width:auto;
+    height: auto;
+    width:100%;
     border-radius: 25%;
     background-image:linear-gradient(to bottom left, white,peachpuff);
     box-shadow: none;

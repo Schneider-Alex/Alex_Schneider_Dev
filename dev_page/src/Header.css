@@ -5,9 +5,9 @@
     border-bottom-left-radius: 25px;
     box-shadow: -5px 30px 40px peachpuff;
     height:50px;
+    position: -webkit-sticky;
     position: sticky;
     top:0;
-    z-index: 999;
     background-color: white ;
     margin-bottom: 5%;
 }
