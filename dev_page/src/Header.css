@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex:0.1;
-    padding: 20px 60px;
+    padding: 20px 40px;
     border-bottom-left-radius: 25px;
     box-shadow: -5px 30px 40px peachpuff;
     height:50px;
@@ -12,11 +12,9 @@
     margin-bottom: 5%;
 }
 
-.header_icon{
-    object-fit: contain;
-    height:50px !important;
-    width: 50px !important;
-    opacity: .3;
+.header>h1{
+    opacity: .8;
+    font-family: 'Cardo', serif;
 }
 
 

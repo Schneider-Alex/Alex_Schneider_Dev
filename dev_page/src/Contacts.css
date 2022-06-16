@@ -1,8 +1,8 @@
 .contacts{
-}
-.contacts_header{
     display: flex;
+    flex-direction: column;
 }
+
 
 .contacts_body{
     display: flex;
