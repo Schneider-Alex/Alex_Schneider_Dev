@@ -1,4 +1,6 @@
-
+.sidebarOption{
+    margin-bottom:5%;
+}
 .sidebarOption_title {
     text-decoration: none;
     color: black;
@@ -17,6 +19,7 @@
     align-items: center;
     opacity: 0;
     transition:opacity 1s;
+    font-family: 'Cardo', serif;
 }
 .sidebarOption_title:hover > h3{
     opacity:1;
