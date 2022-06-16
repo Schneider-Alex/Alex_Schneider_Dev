@@ -23,8 +23,9 @@ function App() {
         </BrowserRouter>
         {/* <Footer/> */}
       </div>
-      <Sidebar />
-
+      <div className="main_sidebar">
+        <Sidebar />
+      </div>
     </div>
   );
 }
