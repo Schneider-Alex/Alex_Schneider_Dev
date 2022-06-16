@@ -11,8 +11,11 @@
     position: relative;
     background: linear-gradient(to top right, peachpuff, white);
     padding: 15px;
+    box-shadow: none;
+    transition: box-shadow .5s;
 }
-.contactOption_wrapper:hover{
+
+.contactOption_tert:hover > .contactOption_wrapper{
     box-shadow: 0 0 20px gray;
 }
 
@@ -20,11 +23,31 @@
 .contactOption_icon{
     object-fit: contain;
     height:auto !important;
-    width: 150px !important;
-    transition: width 1s, height 1s !important;
+    width:150px !important;
+    /* transition: width 1s, height 1s !important; */
 }
 
-.contactOption_icon:hover{
+/* .contactOption_icon:hover{
     height: auto !important;
-    width: 200px !important;
+    width: 160px !important;
+} */
+
+.contactOption_tert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactOption_tert>p{
+    margin-top: 5%;
+    font-size: 100%;
+    color: white;
+    transition: color .5s,font-size .5s;
+    font-family: 'Oswald', sans-serif;
+    /* text-transform: uppercase; */
+}
+
+.contactOption_tert:hover>p{
+    color: black;
+    font-size: 200%;
 }

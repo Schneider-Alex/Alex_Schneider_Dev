@@ -13,7 +13,7 @@ function ProjectOption({ vid, pic, title, description }) {
                 // onMouseOut={event => event.target.pause()}
                 src={`${vid}#t=1`} >
             </video>
-            <p>-{description}</p>
+            <p>{description}</p>
             </div>
 
         </div>
